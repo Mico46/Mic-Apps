@@ -45,6 +45,7 @@ export default function Services() {
   return (
     <section
       id="services"
+      className="services-section"
       style={{
         padding: '100px 40px',
         maxWidth: '1200px',
@@ -87,9 +88,10 @@ export default function Services() {
       </div>
 
       <div
+        className="services-grid"
         style={{
           display: 'grid',
-          gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
           gap: '24px',
         }}
       >
@@ -106,7 +108,7 @@ export default function Services() {
                 ? '1px solid rgba(245,166,35,0.3)'
                 : '1px solid rgba(255,255,255,0.07)',
               borderRadius: '16px',
-              padding: '36px',
+              padding: '32px',
               cursor: 'default',
               transition: 'all 0.3s ease',
               transform: active === i ? 'translateY(-4px)' : 'none',

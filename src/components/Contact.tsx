@@ -45,6 +45,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
+      className="contact-section"
       style={{
         padding: '100px 40px',
         background: 'linear-gradient(180deg, rgba(245,166,35,0.04) 0%, transparent 100%)',
@@ -52,6 +53,7 @@ export default function Contact() {
       }}
     >
       <div
+        className="contact-grid"
         style={{
           maxWidth: '1100px',
           margin: '0 auto',
@@ -127,6 +129,7 @@ export default function Contact() {
 
         {/* Right — form */}
         <div
+          className="contact-form-box"
           style={{
             background: 'rgba(15,26,53,0.6)',
             border: '1px solid rgba(255,255,255,0.08)',
@@ -169,7 +172,10 @@ export default function Contact() {
             </div>
           ) : (
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
+              <div
+                className="contact-name-email-grid"
+                style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}
+              >
                 <div>
                   <label
                     style={{

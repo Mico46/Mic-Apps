@@ -39,8 +39,109 @@ body {
   border-radius: 2px;
 }
 
+/* ───── NAV ───── */
+@media (max-width: 768px) {
+  .nav-desktop-links {
+    display: none !important;
+  }
+  .nav-hamburger {
+    display: flex !important;
+  }
+  .nav-mobile-menu {
+    display: flex !important;
+  }
+}
+
+/* ───── HERO ───── */
+@media (max-width: 768px) {
+  .hero-content {
+    padding: 0 20px !important;
+    padding-top: 90px !important;
+  }
+  .hero-stats {
+    gap: 28px !important;
+    margin-top: 48px !important;
+  }
+}
+
+/* ───── SERVICES ───── */
+@media (max-width: 720px) {
+  .services-section {
+    padding: 72px 20px !important;
+  }
+  .services-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ───── PROJECTS ───── */
+@media (max-width: 768px) {
+  .projects-section {
+    padding: 72px 20px !important;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .projects-header {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+/* ───── ABOUT ───── */
 @media (max-width: 900px) {
-  nav > div:last-child {
-    display: none;
+  .about-section {
+    padding: 72px 20px !important;
+  }
+  .about-grid {
+    grid-template-columns: 1fr !important;
+    gap: 48px !important;
+  }
+  .about-values-grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media (max-width: 480px) {
+  .about-values-grid {
+    grid-template-columns: 1fr !important;
+  }
+  .about-tech-strip {
+    padding: 24px 20px !important;
+  }
+}
+
+/* ───── CONTACT ───── */
+@media (max-width: 900px) {
+  .contact-section {
+    padding: 72px 20px !important;
+  }
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 48px !important;
+  }
+  .contact-form-box {
+    padding: 28px 20px !important;
+  }
+  .contact-name-email-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ───── FOOTER ───── */
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr !important;
+    gap: 36px !important;
+  }
+  .footer-brand {
+    grid-column: 1 / -1 !important;
+  }
+}
+@media (max-width: 480px) {
+  .footer-root {
+    padding: 48px 20px 32px !important;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr !important;
   }
 }

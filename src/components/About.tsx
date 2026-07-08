@@ -9,6 +9,7 @@ export default function About() {
   return (
     <section
       id="about"
+      className="about-section"
       style={{
         padding: '100px 40px',
         maxWidth: '1200px',
@@ -16,6 +17,7 @@ export default function About() {
       }}
     >
       <div
+        className="about-grid"
         style={{
           display: 'grid',
           gridTemplateColumns: '1fr 1fr',
@@ -102,6 +104,7 @@ export default function About() {
 
         {/* Right — values grid */}
         <div
+          className="about-values-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: '1fr 1fr',
@@ -139,6 +142,7 @@ export default function About() {
 
       {/* Tech stack strip */}
       <div
+        className="about-tech-strip"
         style={{
           marginTop: '80px',
           padding: '36px 40px',

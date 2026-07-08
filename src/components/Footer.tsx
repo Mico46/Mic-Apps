@@ -7,6 +7,7 @@ export default function Footer() {
 
   return (
     <footer
+      className="footer-root"
       style={{
         background: '#040a18',
         borderTop: '1px solid rgba(255,255,255,0.06)',
@@ -15,6 +16,7 @@ export default function Footer() {
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
         <div
+          className="footer-grid"
           style={{
             display: 'grid',
             gridTemplateColumns: '2fr 1fr 1fr 1fr',
@@ -23,7 +25,7 @@ export default function Footer() {
           }}
         >
           {/* Brand */}
-          <div>
+          <div className="footer-brand">
             <div
               style={{
                 fontFamily: "'Outfit', sans-serif",

@@ -41,6 +41,7 @@ export default function Projects() {
   return (
     <section
       id="projects"
+      className="projects-section"
       style={{
         padding: '100px 40px',
         background: 'rgba(255,255,255,0.02)',
@@ -49,7 +50,10 @@ export default function Projects() {
       }}
     >
       <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-        <div style={{ marginBottom: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '24px' }}>
+        <div
+          className="projects-header"
+          style={{ marginBottom: '64px', display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', flexWrap: 'wrap', gap: '24px' }}
+        >
           <div>
             <div
               style={{
@@ -86,9 +90,10 @@ export default function Projects() {
         </div>
 
         <div
+          className="projects-grid"
           style={{
             display: 'grid',
-            gridTemplateColumns: 'repeat(auto-fill, minmax(500px, 1fr))',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 480px), 1fr))',
             gap: '28px',
           }}
         >

@@ -100,6 +100,7 @@ export default function Hero() {
 
       {/* Content */}
       <div
+        className="hero-content"
         style={{
           position: 'relative',
           zIndex: 2,
@@ -131,7 +132,7 @@ export default function Hero() {
         <h1
           style={{
             fontFamily: "'Outfit', sans-serif",
-            fontSize: 'clamp(2.8rem, 7vw, 5.5rem)',
+            fontSize: 'clamp(2.2rem, 7vw, 5.5rem)',
             fontWeight: 900,
             lineHeight: 1.05,
             margin: '0 0 28px',
@@ -159,7 +160,7 @@ export default function Hero() {
         <p
           style={{
             color: 'rgba(255,255,255,0.6)',
-            fontSize: '1.125rem',
+            fontSize: 'clamp(0.9rem, 2.5vw, 1.125rem)',
             lineHeight: 1.75,
             maxWidth: '540px',
             margin: '0 0 44px',
@@ -176,7 +177,7 @@ export default function Hero() {
             style={{
               background: '#f5a623',
               color: '#070d1f',
-              padding: '16px 36px',
+              padding: '14px 32px',
               borderRadius: '8px',
               textDecoration: 'none',
               fontWeight: 800,
@@ -201,7 +202,7 @@ export default function Hero() {
             style={{
               border: '1px solid rgba(255,255,255,0.2)',
               color: '#fff',
-              padding: '16px 36px',
+              padding: '14px 32px',
               borderRadius: '8px',
               textDecoration: 'none',
               fontWeight: 600,
@@ -225,6 +226,7 @@ export default function Hero() {
 
         {/* Stats */}
         <div
+          className="hero-stats"
           style={{
             display: 'flex',
             gap: '48px',
