@@ -2,7 +2,7 @@ export default function Footer() {
   const links = {
     Services: ['Custom Web Apps', 'Mobile Apps', 'ERP Systems', 'School Management', 'Hospital Systems', 'E-Commerce'],
     Company: ['About Mic', 'Our Process', 'Careers', 'Blog'],
-    Contact: ['tex.mic22@gmail.com', '+251 91 246 93 72','+251 91292 80 16 'Addis Ababa, Ethiopia'],
+    Contact: ['tex.mic22@gmail.com', '+251 91 246 93 72','+251 91292 80 16', 'Addis Ababa, Ethiopia'],
   }
 
   return (
