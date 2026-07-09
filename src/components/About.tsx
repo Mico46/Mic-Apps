@@ -58,7 +58,7 @@ export default function About() {
             <span style={{ color: '#f5a623' }}>For the World.</span>
           </h2>
           <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.8, marginBottom: '20px', fontSize: '0.95rem' }}>
-            Mic is a software development studio headquartered in Addis Ababa, Ethiopia. We specialize in designing and engineering custom digital solutions that transform how organizations operate.
+            Mic & S. SoftInc is a software development studio headquartered in Addis Ababa, Ethiopia. We specialize in designing and engineering custom digital solutions that transform how organizations operate.
           </p>
           <p style={{ color: 'rgba(255,255,255,0.6)', lineHeight: 1.8, marginBottom: '36px', fontSize: '0.95rem' }}>
             From automating hospital workflows to powering multi-school networks to building enterprise platforms for growing businesses — we turn complex requirements into elegant, working software.
