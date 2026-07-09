@@ -50,7 +50,7 @@ export default function Nav() {
             letterSpacing: '-0.02em',
           }}
         >
-          Mic<span style={{ color: '#f5a623' }}>.</span>
+          Mic & S<span style={{ color: '#f5a623' }}>.</span>
         </a>
 
         {/* Desktop links */}
