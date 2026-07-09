@@ -103,7 +103,7 @@ export default function Contact() {
             {[
               { icon: '📍', label: 'Address', value: 'Addis Ababa, Ethiopia' },
               { icon: '📧', label: 'Email', value: 'hello@mic.dev' },
-              { icon: '📞', label: 'Phone', value: '+251 91 2469372' },
+              { icon: '📞', label: 'Phone', value: '+251 912469372 ,+251 912928016' },
               { icon: '🕐', label: 'Hours', value: 'Mon–Fri, 8:30AM – 6:00PM EAT' },
             ].map((item) => (
               <div key={item.label} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
