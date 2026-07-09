@@ -38,7 +38,7 @@ export default function About() {
             }}
           >
             <span style={{ fontSize: '0.72rem', color: '#00c9b1', fontWeight: 700, letterSpacing: '0.1em' }}>
-              ABOUT MIC
+              ABOUT MIC & S.
             </span>
           </div>
           <h2
