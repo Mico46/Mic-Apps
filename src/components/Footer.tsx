@@ -129,10 +129,10 @@ export default function Footer() {
             © 2024 Mic Web & App Development. All rights reserved. · Addis Ababa, Ethiopia 🇪🇹
           </span>
           <div style={{ display: 'flex', gap: '24px' }}>
-            {['Privacy Policy', 'Terms of Service'].map((t) => (
+            {[{ label: 'Privacy Policy', href: '/privacy-policy.html' }, { label: 'Terms of Service', href: '/terms-of-service.html' }].map(({ label, href }) => (
               <a
-                key={t}
-                href="#"
+                key={label}
+                href={href}
                 style={{
                   color: 'rgba(255,255,255,0.25)',
                   fontSize: '0.8rem',
@@ -142,7 +142,7 @@ export default function Footer() {
                 onMouseEnter={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.6)')}
                 onMouseLeave={(e) => (e.currentTarget.style.color = 'rgba(255,255,255,0.25)')}
               >
-                {t}
+                {label}
               </a>
             ))}
           </div>
