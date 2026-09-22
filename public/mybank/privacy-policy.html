@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — BalanceCheck</title>
+  <meta name="description" content="Privacy Policy for the BalanceCheck app by Mic Apps. Your bank SMS data stays on your device.">
+  <style>
+    :root {
+      --primary: #3f51b5;
+      --primary-dark: #303f9f;
+      --text: #1c1b1f;
+      --muted: #57565c;
+      --bg: #f5f7fa;
+      --card: #ffffff;
+      --border: #e4e6eb;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+      color: #fff;
+      padding: 40px 20px 32px;
+      text-align: center;
+    }
+    header h1 { font-size: 1.9rem; font-weight: 700; letter-spacing: -0.02em; }
+    header p { color: rgba(255,255,255,0.85); margin-top: 6px; font-size: 0.95rem; }
+    main {
+      max-width: 760px;
+      margin: -20px auto 40px;
+      background: var(--card);
+      border-radius: 16px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+      padding: 36px 28px;
+    }
+    @media (max-width: 600px) {
+      main { margin: -20px 12px 32px; padding: 26px 18px; }
+    }
+    .highlight {
+      background: #eef0fb;
+      border-left: 4px solid var(--primary);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 26px;
+      font-size: 0.98rem;
+    }
+    h2 {
+      font-size: 1.25rem;
+      color: var(--primary-dark);
+      margin: 30px 0 10px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { margin-bottom: 12px; color: var(--text); }
+    ul { margin: 0 0 12px 22px; }
+    li { margin-bottom: 7px; }
+    a { color: var(--primary); }
+    .muted { color: var(--muted); font-size: 0.9rem; }
+    footer {
+      text-align: center;
+      padding: 0 20px 40px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    footer .love { color: var(--primary); font-weight: 600; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Privacy Policy</h1>
+    <p>BalanceCheck · Last updated September 22, 2026</p>
+  </header>
+
+  <main>
+    <div class="highlight">
+      <strong>The short version:</strong> BalanceCheck reads your bank SMS
+      messages <strong>on your device only</strong>. Nothing is uploaded —
+      we have no servers, no accounts, and no way to see your data.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>
+      BalanceCheck is a mobile application developed and published by
+      <strong>Mic Apps</strong> ("we", "us", or "our"). This policy explains
+      what information the app accesses, how it is used, and your choices.
+    </p>
+
+    <h2>2. Information the app accesses</h2>
+    <p>To show your balances and transactions, the app requests access to:</p>
+    <ul>
+      <li>
+        <strong>SMS messages (Android).</strong> The app reads your inbox to
+        find notifications from supported banks and wallets (CBE, Telebirr,
+        BOA, Dashen/Amole, Awash, CBE Birr, M-Pesa, Apollo, Enat, Bunna,
+        Tsehay, and ZamZam). Each message is parsed <em>locally</em> to
+        extract the bank name, amount, credit/debit type, reference number,
+        date, and current balance.
+      </li>
+      <li>
+        <strong>Manual entries.</strong> On iOS, or if you deny the SMS
+        permission, you can type transactions in yourself. The SMS permission
+        is optional — the app works without it.
+      </li>
+    </ul>
+    <p>The app does <strong>not</strong> access your contacts, location,
+    photos, microphone, or camera.</p>
+
+    <h2>3. How your information is used</h2>
+    <ul>
+      <li>Parsed transactions are stored in a <strong>local SQLite database
+      on your device</strong> and are used only to display your balances,
+      bank cards, and transaction history inside the app.</li>
+      <li>Settings such as which banks you have enabled and whether balances
+      are hidden are stored locally (Android SharedPreferences).</li>
+      <li>Parsed data is never used for advertising, profiling, or analytics.</li>
+    </ul>
+
+    <h2>4. What is NOT collected or shared</h2>
+    <ul>
+      <li>We do <strong>not</strong> collect, transmit, or sell your personal
+      data, SMS content, or transaction history.</li>
+      <li>We do <strong>not</strong> operate any server that receives your
+      data — all processing happens on your phone.</li>
+      <li>We do <strong>not</strong> use third-party analytics, advertising
+      SDKs, or trackers.</li>
+      <li>No account or registration is required, so we never know who you are.</li>
+      <li>
+        The only internet access the app makes is when <em>you</em> tap a link
+        (such as this Privacy Policy or the Terms of Service), which opens in
+        your browser.
+      </li>
+    </ul>
+
+    <h2>5. Data storage and retention</h2>
+    <ul>
+      <li>All data lives on your device until you remove it.</li>
+      <li>Deleting the app removes its local database and settings.</li>
+      <li>You can clear all stored transactions from within the app at any time.</li>
+      <li>Because no copy exists off-device, deleted data cannot be recovered
+      by us — it is simply gone.</li>
+    </ul>
+
+    <h2>6. Security</h2>
+    <p>
+      Your data is protected by the sandboxing and encryption features of your
+      device's operating system. Since the data never leaves your phone, the
+      main risks are physical access to an unlocked device — we recommend
+      keeping your device lock (PIN/biometrics) enabled and using the app's
+      show/hide balance toggle in public.
+    </p>
+
+    <h2>7. Children's privacy</h2>
+    <p>
+      The app is not directed at children under 13, and we do not knowingly
+      collect any information from anyone, including children.
+    </p>
+
+    <h2>8. Bank and telecom disclaimers</h2>
+    <p>
+      BalanceCheck is an independent tool and is not affiliated with,
+      endorsed by, or sponsored by any bank or telecom provider named in the
+      app. Trademarks and brand names belong to their respective owners.
+    </p>
+
+    <h2>9. Changes to this policy</h2>
+    <p>
+      If this policy changes, we will update it on this page with a revised
+      "Last updated" date. Continued use of the app after changes means you
+      accept the revised policy.
+    </p>
+
+    <h2>10. Contact</h2>
+    <p>
+      Questions about this policy? Contact Mic Apps at
+      <a href="mailto:contact@micapps.example.com">contact@micapps.example.com</a>.
+    </p>
+  </main>
+
+  <footer>
+    <p>Made by <span class="love">Mic Apps with ❤️</span></p>
+    <p class="muted">© 2026 Mic Apps. All rights reserved.</p>
+  </footer>
+</body>
+</html>
